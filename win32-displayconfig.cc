@@ -64,7 +64,7 @@ struct Win32RestoreDisplayConfigDevice {
     DISPLAYCONFIG_MODE_INFO targetModeInfo;
 };
 
-DWORD RunDisplayChangeContextLoop(LPVOID lpParam);
+DWORD WINAPI RunDisplayChangeContextLoop(LPVOID lpParam);
 
 class Win32DisplayChangeContext {
    public:
